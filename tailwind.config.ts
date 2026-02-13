@@ -13,14 +13,21 @@ const config: Config = {
         serif: ["var(--font-playfair)"],
       },
       colors: {
+        // The "Sovereign" Dark Palette
+        background: "#09090b", // Rich Obsidian
+        surface: "#18181b",    // Lighter dark for cards
+        border: "#27272a",     // Subtle borders
+        
+        // Luxury Gold Accents
         gold: {
-          400: "#D4AF37",
-          500: "#C5A028",
-          600: "#B08D22",
+          400: "#FACC15",
+          500: "#EAB308", // Primary Gold
+          600: "#CA8A04", // Hover Gold
         },
-        navy: {
-          900: "#0F172A",
-        }
+        
+        // Text Colors
+        primary: "#FAFAFA",  // Almost White (Readable)
+        secondary: "#A1A1AA", // Muted Silver
       }
     },
   },
