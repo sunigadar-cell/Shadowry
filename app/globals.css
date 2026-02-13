@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 :root {
+  /* Dark Mode Default Variables */
   --foreground-rgb: 250, 250, 250;
   --background-rgb: 9, 9, 11;
 }
@@ -10,11 +11,12 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-rgb));
-  /* Smooth scrolling for the whole app */
-  scroll-behavior: smooth;
+  font-family: var(--font-inter), sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* Custom Scrollbar for a premium feel */
+/* Custom Scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
 }
